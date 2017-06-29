@@ -30,6 +30,13 @@ function createCasePickup()
   pickup = CreatePickup(GetHashKey("PICKUP_MONEY_SECURITY_CASE"), -354.009, -54.316, 49.096)
 end
 
+--function createCasePickup()
+  --pickup = CreatePickup(GetHashKey("PICKUP_MONEY_SECURITY_CASE"),{
+--	"-354.009, -54.316, 49.096",
+--	"255.851, 217.030, 101.683",}
+--)
+--end
+
 function tick()
 	local  playerPed = GetPlayerPed(-1)
   local playerCoords = GetEntityCoords(playerPed, 0)
