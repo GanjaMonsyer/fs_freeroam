@@ -87,7 +87,12 @@ local blips = {
     {name="Tequil-La La", id=93, x=-565.171, y=276.625, z=83.286},
     {name=Translator.translate("blips_theater"), id=135, x=293.089, y=180.466, z=104.301},
     {name=Translator.translate("blips_weedFarm"), id=140, x=2208.777, y=5578.235, z=53.735},
-    -- Gangs
+    
+   -- BANKS
+    {name=Translator.translate("blips_fleeca_bank_mission"), id=304, x=-109.299, y=6464.035, z=31.627},
+    {name=Translator.translate("blips_fleeca_bank_mission"), id=304, x=255.851, y= 217.030, z=101.683},
+   
+   -- Gangs
     {name=Translator.translate("blips_gang"), id=437, x=298.68, y=-2010.10, z=20.07},
     {name=Translator.translate("blips_gang"), id=437, x=86.64, y=-1924.60, z=20.79},
     {name=Translator.translate("blips_gang"), id=437, x=-183.52, y=-1632.62, z=33.34},
